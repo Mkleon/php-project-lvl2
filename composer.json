@@ -1,0 +1,20 @@
+{
+    "name": "hexlet/code",
+    "bin": ["bin/gendiff"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kirill",
+            "email": "kirillo81@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "App\\": "src",
+          "App\\Tests\\": "tests"
+        }
+    },
+    "require": {
+        "docopt/docopt": "^1.0"
+    }
+}
